@@ -22,3 +22,22 @@
 [State](https://github.com/Lizaventa/EagleExpress/blob/main/docs/state.png)
 
 [Use-case](https://github.com/Lizaventa/EagleExpress/blob/main/docs/use-case.png)
+
+
+# Инструкция по развертыванию
+## Подготовка окружения
+Необходимо убедиться, что на сервере установлены Docker и Docker Compose:
+
+docker --version 
+docker-compose --version
+
+## Клонирование репозитория
+Переход в раздел "Развертывание" репозитория и выполнение:
+
+git clone https://github.com/Lizaventa/EagleExpress.git
+cd repository
+
+## Сборка и запуск контейнеров
+Запуск проекта командой:
+
+docker-compose up --build
