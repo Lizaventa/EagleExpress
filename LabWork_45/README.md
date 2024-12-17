@@ -32,3 +32,20 @@
 
 ## http://localhost:8080/swagger/index.html
 ## Swagger позволяет создавать коллекцию в Postman на основе swagger.json или swagger.yaml, находящихся в папке docs данного проекта
+
+# Инструкция по развертыванию
+## Подготовка окружения
+Необходимо убедиться, что на сервере установлены Docker и Docker Compose:
+
+docker --version 
+docker-compose --version
+
+## Клонирование репозитория
+Переход в раздел "Развертывание" репозитория и выполнение:
+
+git clone https://github.com/username/repository.git 
+cd repository
+
+## Сборка и запуск контейнеров
+Запуск проекта командой:
+docker-compose up --build
